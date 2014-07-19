@@ -1,10 +1,11 @@
-.sidebar .social-icons {
-	margin: 10px 0px;
-	display: inline-block;
+.sidebar .fa {
+	margin-right: 10px;
 }
 
-.sidebar .social-icons .fa {
-	margin-right: 10px;
+@media (max-width: 960px) {
+	.sidebar .fa-2x {
+		font-size: 24px;
+	}
 }
 
 .page-title {
