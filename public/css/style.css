@@ -1,4 +1,9 @@
-.sidebar .fa {
+.sidebar .social-icons {
+	margin: 10px 0px;
+	display: inline-block;
+}
+
+.sidebar .social-icons .fa {
 	margin-right: 10px;
 }
 
