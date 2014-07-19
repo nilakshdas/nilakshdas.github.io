@@ -1,0 +1,9 @@
+.page-title {
+	font-weight: bold;
+}
+
+#display-picture {
+	float: right;
+	width: 142px;
+	height: 142px;
+}
