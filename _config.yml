@@ -3,7 +3,7 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        /blog/:year/:month/:day/:title
+permalink:        /posts/:title
 
 # Setup
 title:            Nilaksh Das
@@ -12,7 +12,7 @@ description:      '"Be curious. Read widely. Try new things. What people call in
 url:              http://nilakshdas.github.io
 baseurl:          '/'
 paginate:         5
-paginate_path:    /blog/posts-:num
+paginate_path:    /posts/page-:num
 
 author:
   name:           'Nilaksh Das'
