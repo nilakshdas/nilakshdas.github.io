@@ -17,3 +17,9 @@
 	width: 142px;
 	height: 142px;
 }
+
+#disqus_thread {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-top: 1px solid #eee;
+}
