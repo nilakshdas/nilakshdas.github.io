@@ -30,6 +30,10 @@
 	height: 142px;
 }
 
+#about-me p {
+	display: block;
+}
+
 #disqus_thread {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
