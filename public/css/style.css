@@ -12,6 +12,18 @@
 	font-weight: bold;
 }
 
+.post p {
+	display: inline-block;
+}
+
+.gist-data table {
+	/*margin-bottom: 0px;*/
+}
+
+.gist-meta {
+	/*display: none;*/
+}
+
 #display-picture {
 	float: right;
 	width: 142px;
