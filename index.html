@@ -1,55 +1,34 @@
 ---
 layout: page
-title: About me
 ---
 
+<script type="text/javascript" src="/public/js/url-query-handler.js"></script>
+
+<h2 class="page-title" id="about-me">About me</h2>
 <div class="post" id="about-me">
 	<img src="{{ site.baseurl }}public/img/display-picture.jpg" id="display-picture"/>
 	<p>
-		I am currently a graduate student at <a href="www.gatech.edu/" target="_blank">Georgia Institute of Technology</a> in the <a href="http://www.cse.gatech.edu/" target="_blank">School of Computational Science and Engineering</a>. Here, I also assist in teaching of the Spring 2016 class of <a href="http://poloclub.gatech.edu/cse6242/2016spring/" target="_blank">CSE 6242 - Data and Visual Analytics</a>.
+		I am a PhD student at <a href="http://www.gatech.edu/" target="_blank">Georgia Institute of Technology</a> in the <a href="http://www.cse.gatech.edu/" target="_blank">School of Computational Science and Engineering</a> where I am advised by <a href="http://www.cc.gatech.edu/~dchau/" target="_blank">Polo Chau</a>.
 	</p>
 	<p>
-		My research interests include machine learning and development of web-based intelligent information systems.
+		My research interests include adversarial machine learning, and interpretability and explainability of deep convolutional neural networks.
 	</p>
 </div>
 
-<script type="text/javascript">
-	var query = {};
-	location.search.substr(1).split("&")
-		.forEach(function(item) {
-			query[item.split("=")[0]] = item.split("=")[1]
-		});
+<h2 class="page-title" id="publications">Publications</h2>
+<div class="post">
+	<p class="publication">
+		<span class="pub-title">PASSAGE: A Travel Safety Assistant with Safe Path Recommendations for Pedestrians.</span>
+		<span class="pub-authors">Matthew Garvey, Nilaksh Das, Jiaxing Su, Meghna Natraj, Bhanu Verma.</span>
+		<span class="pub-location">Companion Publication of the 21st International Conference on Intelligent User Interfaces.</span>
+		<span>ACM, 2016.</span>
+		[<a href="https://dl.acm.org/citation.cfm?id=2879470" target="_blank">Paper</a>]
+	</p>
+</div>
 
-	var link = 'http://nilakshdas.com/';
-
-	switch (query.q) {
-		case 'iiitd':
-			link = 'http://precog.iiitd.edu.in/';
-			break;
-		case 'thinkup':
-			link = 'https://www.thinkup.com/';
-			break;
-		case 'mlabs':
-			link = 'http://mlabsresearch.com/';
-			break;
-		case 'baudcast':
-			link = 'https://www.npmjs.com/package/baudcast';
-			break;
-		case 'passage':
-			link = 'https://dl.acm.org/citation.cfm?id=2879470';
-			break;
-		case 'cse6730':
-			link = 'https://www.youtube.com/playlist?list=PLO7-kuERP4OIfgfvRqmH-LDwgX5j-8Ofz';
-			break;
-	}
-
-	if (query.q !== undefined) {
-		document.body.innerHTML = "<div style=\"margin: 150px auto; text-align: center;\">"+
-			"<a href=\""+link+"\">Click here</a> if the page does not redirect automatically..."+
-		"</div>";
-
-		setTimeout(function() {
-			window.location = link;
-		}, 2000);
-	}
-</script>
+<!-- <h2 class="page-title" id="projects">Projects</h2>
+<div class="post">
+	<p>
+		** UNDER CONSTRUCTION **
+	</p>
+</div> -->

@@ -1,5 +1,17 @@
+p {
+	font-size: 18px;
+}
+
+.masthead-title a {
+	font-weight: bold;
+}
+
 .sidebar .fa {
 	margin-right: 10px;
+}
+
+.sidebar-toggle {
+	margin-top: .4rem;
 }
 
 @media (max-width: 960px) {
@@ -24,10 +36,19 @@
 	/*display: none;*/
 }
 
+span.pub-title {
+	font-weight: bold;
+}
+
+span.pub-location {
+	font-style: italic;
+}
+
 #display-picture {
 	float: right;
 	width: 142px;
 	height: 142px;
+	margin-left: 50px;
 }
 
 #about-me p {
