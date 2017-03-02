@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
 p {
+	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
 }
 
@@ -34,6 +37,10 @@ p {
 
 .gist-meta {
 	/*display: none;*/
+}
+
+.sidebar-nav a.sidebar-nav-item {
+	font-size: 18px;
 }
 
 span.pub-title {
