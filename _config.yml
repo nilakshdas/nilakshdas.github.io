@@ -10,7 +10,7 @@ permalink:        /posts/:title
 # Setup
 title:            Nilaksh Das
 taglines:         ['makes code', 'jumps hoops']
-description:      '"Be curious. Read widely. Try new things. What people call intelligence just boils down to curiosity." - Aaron Swartz'
+description:      "Don't panic."
 url:              http://nilakshdas.github.io
 baseurl:          '/'
 paginate:         5
