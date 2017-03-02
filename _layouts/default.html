@@ -13,10 +13,12 @@
 				<div class="container">
 					<h1 class="masthead-title">
 						<a href="/" title="Home">{{ site.title }}</a>
-						<small>{{ site.taglines[0] }}</small>
+						<small id="tagline"></small>
 					</h1>
 				</div>
 			</div>
+
+			<script type="text/javascript" src="/public/js/tagline-randomizer.js"></script>
 
 			<div class="container content">
 				{{ content }}

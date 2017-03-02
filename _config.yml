@@ -9,7 +9,6 @@ permalink:        /posts/:title
 
 # Setup
 title:            Nilaksh Das
-taglines:         ['makes code', 'jumps hoops']
 description:      "Don't panic."
 url:              http://nilakshdas.github.io
 baseurl:          '/'
