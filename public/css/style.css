@@ -45,9 +45,6 @@ p {
 
 p.publication {
 	padding-bottom: 5px;
-	border-style: solid;
-	border-width: 0 0 1px 0;
-	border-color: #cecece;
 }
 
 span.pub-title {
@@ -56,6 +53,29 @@ span.pub-title {
 
 span.pub-location {
 	font-style: italic;
+}
+
+div.project {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.project .hero-image {
+	margin: 10px auto;
+	width: 75%;
+}
+
+.proj-title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.proj-gist {
+	font-weight: normal;
+	font-size: 16px;
+	text-align: justify;
 }
 
 #display-picture {
