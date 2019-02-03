@@ -1,96 +1,63 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
-
-p {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 18px;
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-family: Lato, Arial;
+    font-size: 16px;
+    color: #333;
 }
 
-.masthead-title a {
-	font-weight: bold;
+a, a:hover {
+    color: #379;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
 }
 
-.sidebar .fa {
-	margin-right: 10px;
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-top: 1px solid #eeeeee;
 }
 
-.sidebar-toggle {
-	margin-top: .4rem;
+#name {
+    font-family: Helvetica,sans-serif;
+    font-size: 60px;
+    color: #000000;
 }
 
-@media (max-width: 960px) {
-	.sidebar .fa-2x {
-		font-size: 24px;
-	}
+#social {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.page-title {
-	font-weight: bold;
+#social a {
+    font-size: 25px;
+    color: #333;
+    border-bottom: 0px none white;
+    text-decoration: none;
 }
 
-.post p {
-	display: inline-block;
-}
-
-.gist-data table {
-	/*margin-bottom: 0px;*/
-}
-
-.gist-meta {
-	/*display: none;*/
-}
-
-.sidebar-nav a.sidebar-nav-item {
-	font-size: 18px;
-}
-
-p.publication {
-	padding-bottom: 5px;
-}
-
-span.pub-title {
-	font-weight: bold;
-}
-
-span.pub-location {
-	font-style: italic;
-}
-
-div.project {
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 10px;
-	padding: 20px;
-}
-
-.project .hero-image {
-	margin: 10px auto;
-	width: 75%;
-}
-
-.proj-title {
-	font-weight: bold;
-	font-size: 18px;
-}
-
-.proj-gist {
-	font-weight: normal;
-	font-size: 16px;
-	text-align: justify;
+#social > span > a + a {
+    margin-left: 10px;
 }
 
 #display-picture {
-	float: right;
-	width: 142px;
-	height: 142px;
-	margin-left: 50px;
+    float: right;
+    width: 25%;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
 }
 
-#about-me p {
-	display: block;
+#intro p {
+    line-height: 24px;
 }
 
-#disqus_thread {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	border-top: 1px solid #eee;
+.publication-item {
+    margin-top: 25px;
 }

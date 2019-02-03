@@ -1,68 +1,256 @@
----
-layout: page
----
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<script type="text/javascript" src="/public/js/url-query-handler.js"></script>
 
-<h2 class="page-title" id="about-me">About me</h2>
-<div class="post" id="about-me">
-	<img src="{{ site.baseurl }}public/img/display-picture.jpg" id="display-picture"/>
-	<p>
-		Hi! I am a PhD student at <a href="http://www.gatech.edu/" target="_blank">Georgia Institute of Technology</a> in the <a href="http://www.cse.gatech.edu/" target="_blank">School of Computational Science and Engineering</a> where I am advised by <a href="http://www.cc.gatech.edu/~dchau/" target="_blank">Polo Chau</a>.
-	</p>
-	<p>
-		My research focuses on adversarial machine learning, and interpretability and explainability of deep convolutional neural networks. I am currently investigating strategies to secure deep architectures from causative and exploratory attacks.
-	</p>
-	<p>
-		I am also an active member of the <a href="http://poloclub.gatech.edu/"  target="_blank">Polo Club of Data Science</a> where we conduct research that spans across the domains of data mining, machine learning, human-computer interaction and information visualization.
-	</p>
-</div>
+    <title>
+        Nilaksh Das &middot; Georgia Institute of Technology
+    </title>
 
-<h2 class="page-title" id="publications">Publications</h2>
-<div class="post">
-    <p class="publication">
-		<span class="pub-title">ADAGIO: Interactive Experimentation with Adversarial Attack and Defense for Audio.</span>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin,latin-ext">
+    <link rel="stylesheet" href="/public/css/style.css">
 
-		<span class="pub-authors">Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Li Chen, Michael E. Kounavis, Duen Horng Chau.</span>
+    <!-- Icons -->
+    <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="title">
+            <div class="col-12 col-md-8" id="name">
+                <span>Nilaksh Das</span>
+            </div>
+            <div class="col-12 col-md-4 text-md-right" id="social">
+                <span>
+                    <a href="mailto:nilakshdas@gatech.edu" 
+                        data-toggle="tooltip" data-placement="bottom" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
 
-		<span class="pub-location">Machine Learning and Knowledge Discovery in Databases, European Conference, Proceedings Part III, LNAI Vol. 11053 (ECML-PKDD 2018).</span>
-		[<a href="https://youtu.be/0W2BKMwSfVQ" target="_blank">Video</a>]
-	</p>
+                    <a href="https://twitter.com/nilakshdas" target="_blank" 
+                        data-toggle="tooltip" data-placement="bottom" title="Twitter">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
 
-	<p class="publication">
-		<span class="pub-title">SHIELD: Fast, Practical Defense and Vaccination for Deep Learning Using JPEG Compression.</span>
+                    <a href="https://github.com/nilakshdas" target="_blank" 
+                        data-toggle="tooltip" data-placement="bottom" title="GitHub">
+                        <i class="fab fa-github-alt" aria-hidden="true"></i>
+                    </a>
 
-		<span class="pub-authors">Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, Siwei Li, Li Chen, Michael E. Kounavis, Duen Horng Chau.</span>
+                    <a href="https://scholar.google.com/citations?user=l9CbOZQAAAAJ&hl=en" target="_blank" 
+                        data-toggle="tooltip" data-placement="bottom" title="Google Scholar">
+                        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    </a>
 
-		<span class="pub-location">Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD 2018).</span>
-		[<a href="https://dl.acm.org/citation.cfm?id=3219910" target="_blank">Paper</a>]
-		[<a href="https://youtu.be/zUB2-i7rSb4" target="_blank">Video</a>]
-	</p>
+                    <a href="#">
+                        |
+                    </a>
 
-	<p class="publication">
-		<span class="pub-title">Compression to the Rescue: Defending from Adversarial Attacks Across Modalities.</span>
+                    <a href="/public/pdf/NilakshDas-CV.pdf" target="_blank"
+                        data-toggle="tooltip" data-placement="bottom" title="Curriculum Vitae">
+                        <strong>CV</strong>
+                    </a>
+                </span>
+            </div>
+        </div>
+        
+        <hr style="margin-top:0;"/>
 
-		<span class="pub-authors">Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, Siwei Li, Li Chen, Michael E. Kounavis, Duen Horng Chau.</span>
+        <div class="row" id="intro">
+            <div class="col">
+                <img src="/public/img/display-picture.jpg" id="display-picture">
+                
+                <p class="text-justify">
+                    Hi! I am Nilaksh, a PhD student at <a href="http://www.gatech.edu/" target="_blank">Georgia Institute of Technology</a> in the <a href="http://www.cse.gatech.edu/" target="_blank">School of Computational Science and Engineering</a>, where I am advised by <a href="http://www.cc.gatech.edu/~dchau/" target="_blank">Dr. Duen Horng Chau</a>.
+                </p>
 
-		<span class="pub-location">KDD 2018 Project Showcase workshop.</span>
-		[<a href="https://www.kdd.org/kdd2018/files/project-showcase/KDD18_paper_1800.pdf" target="_blank">Abstract</a>]
-	</p>
+                <p class="text-justify">
+                    My research focuses on adversarial machine learning, and interpretability and explainability of deep convolutional neural networks. I am currently investigating strategies to secure deep architectures from causative and exploratory attacks.
+                </p>
 
-	<p class="publication">
-		<span class="pub-title">Keeping the Bad Guys Out: Protecting and Vaccinating Deep Learning with JPEG Compression.</span>
+                <p class="text-justify">
+                    I am also an active member of the <a href="http://poloclub.gatech.edu/" target="_blank">Polo Club of Data Science</a> where we conduct research that spans across the domains of data mining, machine learning, human-computer interaction and information visualization.
+                </p>
+            </div>
+        </div>
 
-		<span class="pub-authors">Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, Li Chen, Michael E. Kounavis, Duen Horng Chau.</span>
+        <hr/>
 
-		<span class="pub-location">arXiv:1705.02900 [cs.CV].</span>
-		[<a href="https://arxiv.org/abs/1705.02900" target="_blank">Paper</a>]
-	</p>
+        <div class="row">
+            <div class="col">
+                <h3>Publications</h3>
+            </div>
+        </div>
 
-	<p class="publication">
-		<span class="pub-title">PASSAGE: A Travel Safety Assistant with Safe Path Recommendations for Pedestrians.</span>
+        
 
-		<span class="pub-authors">Matthew Garvey, Nilaksh Das, Jiaxing Su, Meghna Natraj, Bhanu Verma.</span>
+            <div class="row publication-item">
+                <div class="col">
+                    <strong>ADAGIO: Interactive Experimentation with Adversarial Attack and Defense for Audio</strong>
+                    <br/>
+                    <span>N. Das, M. Shanbhogue, S. T. Chen, L. Chen, M. E. Kounavis, D. H. Chau</span>
+                    <br/>
+                    <i>
+                        European Conference on Machine Learning & Principles & Practice of Knowledge Discovery in Databases<span> (ECML-PKDD)</span>,
+                    </i>
+                    2018.<span> [<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-10997-4_50" target="_blank">publication</a>]</span><span> [<a href="https://arxiv.org/abs/1805.11852" target="_blank">arxiv</a>]</span><span> [<a href="https://youtu.be/0W2BKMwSfVQ" target="_blank">video</a>]</span></div>
+            </div>
 
-		<span class="pub-location">Companion Publication of the 21st International Conference on Intelligent User Interfaces (IUI 2016).</span>
-		[<a href="https://dl.acm.org/citation.cfm?id=2879470" target="_blank">Paper</a>]
-	</p>
-</div>
+                <!-- \textbf{\x{}ADAGIO: Interactive Experimentation with Adversarial Attack and Defense for Audio}
+                \\N. Das, M. Shanbhogue, S. T. Chen, L. Chen, M. E. Kounavis, D. H. Chau\\
+                \italicize{
+                    European Conference on Machine Learning & Principles & Practice of Knowledge Discovery in Databases\\~\mbox{(ECML-PKDD)},
+                }2018.\\
+
+                \vspace{0.2em} -->
+
+        
+
+            <div class="row publication-item">
+                <div class="col">
+                    <strong>SHIELD: Fast, Practical Defense and Vaccination for Deep Learning Using JPEG Compression</strong>
+                    <br/>
+                    <span>N. Das, M. Shanbhogue, S. T. Chen, F. Hohman, S. Li, L. Chen, M. E. Kounavis, D. H. Chau</span>
+                    <br/>
+                    <i>
+                        ACM SIGKDD International Conference on Knowledge Discovery & Data Mining<span> (KDD)</span>,
+                    </i>
+                    2018.<span> [<a href="https://dl.acm.org/citation.cfm?doid=3219819.3219910" target="_blank">publication</a>]</span><span> [<a href="https://arxiv.org/abs/1802.06816" target="_blank">arxiv</a>]</span><span> [<a href="https://youtu.be/zUB2-i7rSb4" target="_blank">video</a>]</span><span> [<a href="https://github.com/poloclub/jpeg-defense" target="_blank">github</a>]</span><br/>
+                        <span><i class="fas fa-trophy"></i> &nbsp;&nbsp;&nbsp; Audience Appreciation Award (runner-up)</span></div>
+            </div>
+
+                <!-- \textbf{\x{}SHIELD: Fast, Practical Defense and Vaccination for Deep Learning Using JPEG Compression}
+                \\N. Das, M. Shanbhogue, S. T. Chen, F. Hohman, S. Li, L. Chen, M. E. Kounavis, D. H. Chau\\
+                \italicize{
+                    ACM SIGKDD International Conference on Knowledge Discovery & Data Mining~\mbox{(KDD)},
+                }2018.\\ \faTrophy \ \ \x{}\emph{\x{}Audience Appreciation Award (runner-up)}\\
+
+                \vspace{0.2em} -->
+
+        
+
+            <div class="row publication-item">
+                <div class="col">
+                    <strong>Compression to the Rescue: Defending from Adversarial Attacks Across Modalities</strong>
+                    <br/>
+                    <span>N. Das, M. Shanbhogue, S. T. Chen, F. Hohman, S. Li, L. Chen, M. E. Kounavis, D. H. Chau</span>
+                    <br/>
+                    <i>
+                        KDD Workshop - Project Showcase,
+                    </i>
+                    2018.<span> [<a href="https://www.kdd.org/kdd2018/files/project-showcase/KDD18_paper_1800.pdf" target="_blank">abstract</a>]</span></div>
+            </div>
+
+                <!-- \textbf{\x{}Compression to the Rescue: Defending from Adversarial Attacks Across Modalities}
+                \\N. Das, M. Shanbhogue, S. T. Chen, F. Hohman, S. Li, L. Chen, M. E. Kounavis, D. H. Chau\\
+                \italicize{
+                    KDD Workshop - Project Showcase,
+                }2018.\\
+
+                \vspace{0.2em} -->
+
+        
+
+            <div class="row publication-item">
+                <div class="col">
+                    <strong>Defense against Adversarial Attacks using JPEG Compression</strong>
+                    <br/>
+                    <span>N. Das, M. Shanbhogue, S. T. Chen, F. Hohman, L. Chen, M. E. Kounavis, D. H. Chau</span>
+                    <br/>
+                    <i>
+                        NIPS Workshop - Women in Machine Learning<span> (WiML)</span>,
+                    </i>
+                    2017.</div>
+            </div>
+
+                <!-- \textbf{\x{}Defense against Adversarial Attacks using JPEG Compression}
+                \\N. Das, M. Shanbhogue, S. T. Chen, F. Hohman, L. Chen, M. E. Kounavis, D. H. Chau\\
+                \italicize{
+                    NIPS Workshop - Women in Machine Learning~\mbox{(WiML)},
+                }2017.\\
+
+                \vspace{0.2em} -->
+
+        
+
+            <div class="row publication-item">
+                <div class="col">
+                    <strong>Training a Generative Agent Grounded in Cooperative Visual Dialog with Deep Reinforcement Learning</strong>
+                    <br/>
+                    <span>A. Kalia, N. Das, M. Shanbhogue, V. Parthasarathy</span>
+                    <br/>
+                    <i>
+                        NIPS Workshop - Women in Machine Learning<span> (WiML)</span>,
+                    </i>
+                    2017.</div>
+            </div>
+
+                <!-- \textbf{\x{}Training a Generative Agent Grounded in Cooperative Visual Dialog with Deep Reinforcement Learning}
+                \\A. Kalia, N. Das, M. Shanbhogue, V. Parthasarathy\\
+                \italicize{
+                    NIPS Workshop - Women in Machine Learning~\mbox{(WiML)},
+                }2017.\\
+
+                \vspace{0.2em} -->
+
+        
+
+            <div class="row publication-item">
+                <div class="col">
+                    <strong>Keeping the Bad Guys Out: Protecting and Vaccinating Deep Learning with JPEG Compression</strong>
+                    <br/>
+                    <span>N. Das, M. Shanbhogue, S. T. Chen, F. Hohman, L. Chen, M. E. Kounavis, D. H. Chau</span>
+                    <br/>
+                    <i>
+                        arXiv preprint arXiv:1705.02900,
+                    </i>
+                    2017.<span> [<a href="https://arxiv.org/abs/1705.02900" target="_blank">arxiv</a>]</span></div>
+            </div>
+
+                <!-- \textbf{\x{}Keeping the Bad Guys Out: Protecting and Vaccinating Deep Learning with JPEG Compression}
+                \\N. Das, M. Shanbhogue, S. T. Chen, F. Hohman, L. Chen, M. E. Kounavis, D. H. Chau\\
+                \italicize{
+                    arXiv preprint arXiv:1705.02900,
+                }2017.\\
+
+                \vspace{0.2em} -->
+
+        
+
+            <div class="row publication-item">
+                <div class="col">
+                    <strong>PASSAGE: A Travel Safety Assistant with Safe Path Recommendations for Pedestrians</strong>
+                    <br/>
+                    <span>M. Garvey, N. Das, J. Su, M. Natraj, B. Verma</span>
+                    <br/>
+                    <i>
+                        ACM International Conference on Intelligent User Interfaces<span> (IUI)</span>,
+                    </i>
+                    2016.<span> [<a href="https://dl.acm.org/citation.cfm?id=2879470" target="_blank">publication</a>]</span></div>
+            </div>
+
+                <!-- \textbf{\x{}PASSAGE: A Travel Safety Assistant with Safe Path Recommendations for Pedestrians}
+                \\M. Garvey, N. Das, J. Su, M. Natraj, B. Verma\\
+                \italicize{
+                    ACM International Conference on Intelligent User Interfaces~\mbox{(IUI)},
+                }2016.\\
+
+                \vspace{0.2em} -->
+
+        
+
+        <hr/>
+    </div>
+</body>
+</html>
