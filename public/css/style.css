@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
     padding: 10px 0;
     font-family: Lato, Arial;
-    font-size: 16px;
+    font-size: 14px;
     color: #333;
 }
 
@@ -23,9 +23,21 @@ hr {
     border-top: 1px solid #eeeeee;
 }
 
+.popover > .arrow::after {
+    border-bottom-color: #f7f7f7;
+}
+
+.publication-item {
+    margin-top: 25px;
+}
+
+.recognition-item {
+    color: blueviolet;
+}
+
 #name {
     font-family: Helvetica,sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     color: #000000;
 }
 
@@ -55,9 +67,5 @@ hr {
 }
 
 #intro p {
-    line-height: 24px;
-}
-
-.publication-item {
-    margin-top: 25px;
+    line-height: 20px;
 }
