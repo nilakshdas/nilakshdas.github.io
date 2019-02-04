@@ -13,7 +13,7 @@ body {
 }
 
 a, a:hover {
-    color: #379;
+    color: #0093ff;
     border-bottom: 1px solid #ddd;
     text-decoration: none;
 }
@@ -82,13 +82,18 @@ hr {
 }
 
 .recognition-item {
-    color: blueviolet;
+    color: green;
+}
+
+.resource-item {
+    font-size: 10px;
+    line-height: 1;
 }
 
 #name {
     font-family: Helvetica,sans-serif;
     font-size: 50px;
-    color: #000000;
+    color: darkblue;
 }
 
 #social {
