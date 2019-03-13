@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     padding: 10px 0;
     font-family: Lato, Arial;
-    font-size: 14px;
+    font-size: 18px;
     color: #333;
 }
 
@@ -78,7 +78,7 @@ hr {
 }
 
 .publication-item {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .recognition-item {
@@ -86,13 +86,14 @@ hr {
 }
 
 .resource-item {
-    font-size: 12px;
+    margin-top: 10px;
+    font-size: 16px;
     line-height: 1;
 }
 
 #name {
     font-family: Helvetica,sans-serif;
-    font-size: 50px;
+    font-size: 56px;
     color: darkblue;
 }
 
@@ -102,7 +103,7 @@ hr {
 }
 
 #social a {
-    font-size: 25px;
+    font-size: 30px;
     color: #333;
     border-bottom: 0px none white;
     text-decoration: none;
@@ -121,7 +122,6 @@ hr {
     border-radius: 15px;
 }
 
-#intro p {
-    font-size: 16px;
-    line-height: 24px;
+#intro strong {
+    color: #c20000;
 }
